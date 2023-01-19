@@ -1,7 +1,7 @@
 // $color-primary: #f59a83;
-$color-primary: #f38e82;
-$color-grad-1: #fbdb89;
-$color-grad-2: #f48982;
+$color-primary: #61bc05;
+$color-grad-1: #c5403b;
+$color-grad-2: #a45727;
 
 $color-grey-light-1: #f9f5f3; // Light background
 $color-grey-light-2: #f2efee; // Light lines
@@ -52,7 +52,8 @@ body {
   min-height: 117rem;
   margin: 4vw auto;
   background-color: #fff;
-  border-radius: 9px;
+  border-radius: 2px;
+  border: 4px solid rgb(129, 111, 40);
   overflow: hidden;
   box-shadow: 0 2rem 6rem 0.5rem rgba($color-grey-dark-1, 0.2);
 

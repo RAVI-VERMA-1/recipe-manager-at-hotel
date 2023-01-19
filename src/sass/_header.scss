@@ -4,11 +4,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  border-bottom: 4px solid rgb(226, 104, 28);
   &__logo {
     margin-left: 4rem;
-    height: 4.6rem;
+
+    height: 8.5rem;
     display: block;
+    border-radius: 50%;
   }
 }
 
@@ -53,6 +55,7 @@
   &__btn {
     font-weight: 600;
     font-family: inherit;
+    letter-spacing: 1px;
   }
 }
 
