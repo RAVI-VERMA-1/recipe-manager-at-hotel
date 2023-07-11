@@ -1,11 +1,11 @@
 // $color-primary: #f59a83;
 $color-primary: #61bc05;
-$color-grad-1: #c5403b;
+$color-grad-1: #524f4f;
 $color-grad-2: #a45727;
 
-$color-grey-light-1: #f9f5f3; // Light background
-$color-grey-light-2: #f2efee; // Light lines
-$color-grey-light-3: #d3c7c3; // Light text (placeholder)
+$color-grey-light-1: #413e3d; // Light background
+$color-grey-light-2: #6e6563; // Light lines
+$color-grey-light-3: #edcdbf; // Light text (placeholder)
 $color-grey-dark-1: #615551; // Normal text
 $color-grey-dark-2: #918581; // Lighter text
 
@@ -53,7 +53,7 @@ body {
   margin: 2vw auto;
   background-color: #fff;
   border-radius: 2px;
-  border: 4px solid #e5b191;
+  // border: 4px solid #e5b191;
   overflow: hidden;
   box-shadow: 0 2rem 6rem 0.5rem rgba($color-grey-dark-1, 0.2);
 

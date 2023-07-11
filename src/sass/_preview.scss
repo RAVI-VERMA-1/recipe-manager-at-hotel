@@ -11,12 +11,12 @@
     }
 
     &:hover {
-      background-color: $color-grey-light-1;
+      background-color: #ddd6d6;
       transform: translateY(-2px);
     }
 
     &--active {
-      background-color: $color-grey-light-1;
+      background-color: #d9cfcf;
     }
   }
 

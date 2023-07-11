@@ -68,6 +68,7 @@
     display: flex;
     align-items: center;
     padding: 7.5rem 8rem 3.5rem 8rem;
+    color: #fff;
   }
 
   &__info {
@@ -100,8 +101,8 @@
   }
 
   &__user-generated {
-    background-color: darken($color-grey-light-2, 2%);
-
+    background-color: $color-grey-light-1;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,8 +126,9 @@
     padding: 5rem 8rem;
     font-size: 1.6rem;
     line-height: 1.4;
-    background-color: $color-grey-light-2;
+    background-color: $color-grey-light-1;
     display: flex;
+    color: #fff;
     flex-direction: column;
     align-items: center;
   }

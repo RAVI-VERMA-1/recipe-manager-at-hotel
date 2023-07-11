@@ -76,7 +76,7 @@
   &__btn {
     height: 100%;
     font-family: inherit;
-    color: inherit;
+    color: #fff;
     font-size: 1.4rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -111,15 +111,15 @@
   padding: 1rem 0;
   position: absolute;
   // right: 0;
+
   right: -2.5rem;
   z-index: 10;
   width: 40rem;
-  background-color: #fff;
-  box-shadow: 0 0.8rem 5rem 2rem rgba($color-grey-dark-1, 0.1);
+  background-color: #000;
 
   visibility: hidden;
   opacity: 0;
-  transition: all 0.5s 0.2s;
+  transition: all 0.6s ease-in 0.3s;
 
   &__list {
     list-style: none;
